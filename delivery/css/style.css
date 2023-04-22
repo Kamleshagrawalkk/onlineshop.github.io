@@ -1,0 +1,21 @@
+main section.container {
+    width: 460px;
+    border: 1px solid #f2dede;
+    border-radius: 10px;
+    background: #f2dede;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main section.container .alert-danger{
+    background: none;
+    border-color: transparent;
+    padding: unset;
+}
+.list-group-item{
+    background-color: transparent;
+}
+
+a.list-group-item.visit:visited {
+    color: #fff !important;
+    background-color: red !important;
+}
